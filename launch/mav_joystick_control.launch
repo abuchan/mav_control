@@ -1,0 +1,9 @@
+<launch>
+  <!-- set to 'droidpad' to use Android Joystick -->
+  <arg name="joystick_type" default="" />
+
+  <node name="joy" pkg="joy" type="joy_node" />
+
+  <node name="joystick_to_mavros" pkg="mav_control" type="joystick_to_mavros.py" args="$(arg joystick_type)" output="screen">
+  </node>
+</launch>

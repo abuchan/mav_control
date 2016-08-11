@@ -1,0 +1,7 @@
+<launch>
+
+  <include file="$(find px4)/launch/hippocampus.launch"/>
+
+  <include file="$(find mav_control)/launch/mav_joystick_control.launch" />
+
+</launch>
