@@ -1,0 +1,20 @@
+image_width: 640
+image_height: 480
+camera_name: quick_cam_uw
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [945.950662, 0.000000, 385.299437, 0.000000, 938.094208, 244.137926, 0.000000, 0.000000, 1.000000]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [0.572094, -0.491032, 0.020347, 0.025998, 0.000000]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [1004.562744, 0.000000, 387.121386, 0.000000, 0.000000, 987.033203, 247.706491, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000]

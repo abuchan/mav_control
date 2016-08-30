@@ -3,5 +3,7 @@
   <include file="$(find px4)/launch/hippocampus.launch"/>
 
   <include file="$(find mav_control)/launch/mav_joystick_control.launch" />
+  
+  <node name="gazebo_to_tf" pkg="mav_control" type="gazebo_to_tf.py" />
 
 </launch>
